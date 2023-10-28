@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+}
+
+/* li {
+  font-weight: bold
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+
+.right{
+  float: right
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  padding: 40px;
+}
+
+
+
+
+
+

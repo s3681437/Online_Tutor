@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
+install:
+  - npm install
+services:
+  - mongodb
+
+env:
+  global:
+  - NODE_ENV=test
+
+# before_script:
+
+#   - npm run build
+
+script:
+  - cd sept-assignment && npm test
+  
+after_success:
+  - npm run coverage
+ 
